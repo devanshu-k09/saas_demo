@@ -5,7 +5,7 @@ const db = mysql.createConnection({
   host: 'database-1.c7kwqwcoscap.ap-south-1.rds.amazonaws.com',
   user: 'admin',
   password: 'yourpass',
-  database: 'database-1'
+  database: 'mysql'
 });
 
 db.connect(err => {
